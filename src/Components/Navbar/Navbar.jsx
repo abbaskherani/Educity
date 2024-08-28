@@ -35,6 +35,8 @@ const toggleMenu = () => {
         <li><Link to='campus' smooth={true} offset={-260} duration={500}>Campus</Link></li>
         <li><Link to='testimonials' smooth={true} offset={-260} duration={500}>Testimonials</Link></li>
         <li><Link to='contact' smooth={true} offset={-260} duration={500} className='btn'>Contact Us</Link></li>
+        <li>
+          <a href="https://github.com/abbaskherani/Educity" target='_blank'>Github</a></li>
 
     </ul>
     <img src={menu_icon} className='menu-icon' onClick={toggleMenu} alt="" />
